@@ -7,12 +7,12 @@
 
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:id="@+id/main"
-        android:background="@mipmap/bgpic"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        android:orientation="vertical"
+        >
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -58,5 +58,5 @@
 
         </androidx.cardview.widget.CardView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 </layout>
